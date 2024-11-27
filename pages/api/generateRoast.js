@@ -2,12 +2,12 @@
 
 import OpenAI from 'openai';
 
-const cors = require('cors')({ origin: true });
-const functions = require('firebase-functions');
-const next = require('next');
+// const cors = require('cors')({ origin: true });
+// const functions = require('firebase-functions');
+// const next = require('next');
 
-const dev = process.env.NODE_ENV !== 'production';
-const nextjsApp = next({ dev, dir: '.' }); 
+// const dev = process.env.NODE_ENV !== 'production';
+// const nextjsApp = next({ dev, dir: '.' }); 
 
 
 // Create a new OpenAI client instance
