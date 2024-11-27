@@ -1,0 +1,51 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.container h2 {
+  color: #15a735;
+  margin-bottom: 30px;
+}
+
+.roast {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+.shareButtons {
+  display: flex;
+  gap: 15px; /* Space between buttons */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style for each individual share button */
+.shareButtons button {
+  background-color: #1877f2; /* Example color, adjust as needed */
+  border-radius: 50%; /* Round the button */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for share buttons */
+.shareButtons button:hover {
+  background-color: #155f8b; /* Darker shade on hover */
+}
+
+/* Override default color for icons */
+.shareButtons svg {
+  fill: white; /* Ensure icons are white */
+  transition: fill 0.3s ease;
+}
+
+/* Change icon color on hover */
+.shareButtons button:hover svg {
+  fill: #fff; /* Keep icons white on hover, or change to another color */
+}
